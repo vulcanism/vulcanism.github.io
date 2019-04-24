@@ -1,11 +1,11 @@
 # Site settings
-author: Savannah C
-title: 
+author: Savannah Correll
+title: Learn.co Blog
 header-img: img/home-bg.png
 email: sgcorrell@gmail.com
-copyright_name: Savannah C
+copyright_name: Savannah Correll
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Blog for reflection during the Learn.co curriculum
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  vulcanism
