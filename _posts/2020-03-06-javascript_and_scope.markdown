@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript and Scope"
-date:       2020-03-06 17:28:54 +0000
+date:       2020-03-06 12:28:55 -0500
 permalink:  javascript_and_scope
 ---
 
@@ -10,7 +10,7 @@ So, what is "scope," anyway? In simple terms, scope determines where variables a
 
 Functions or variables defined in the global scope, or global execution context, are accessible anywhere in your JavaScript code. For example, take the following code: 
 
-![](https://imgur.com/FE5hRsP)
+![](https://i.imgur.com/FE5hRsP.png)
 
 Running `logX()` successfully logs the number 11 to the console, because `x` is defined in the global scope. It is not defined inside a function or a block statement.
 
@@ -20,7 +20,7 @@ It is worth noting that only variables defined with `let` or `const` are block-s
 
 That leaves function scope, which refers to the scope within a written function. Similar to block scope, the variables defined within a function cannot be accessed outside of that function. They can, however, be accessed anywhere within it. So, looking at the code below:
 
-![](https://imgur.com/KbrCaTH)
+![](https://i.imgur.com/KbrCaTH.png)
 
 Calling `a()` would return the number 24. If I were to attempt to `return y * 2` outside of `function a()`, however, JavaScript would give me an error. This is because `y` only exists within the context of `function a()`. It's for this reason that variable names can be reused within different, separate (i.e. not nested) functions in JavaScript without getting errors. Although, reusing variable names too much is likely to cause problems in other ways.
 
